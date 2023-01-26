@@ -43,23 +43,23 @@ El proposito de este proyecto fue utilzar la API de weka para diseñar un sistem
 
 4. Con el proyecto descargado y la libreria de Weka dentro del proyecto, sin errores de importacion de liberias o errores de sintaxis. Ahora podemos configurar algunas lineas del proyecto. 
 
-    En la clase **`test`** del package **`DBSCAN`** vamos a modificar la siguiente linea.
+    * En la clase **`test`** del package **`DBSCAN`** vamos a modificar la siguiente linea.
 
-    ```java
-    String route = "Your Path\\Folder\\sample.arff";
-    ```
+        ```java
+        String route = "Your Path\\Folder\\sample.arff";
+        ```
 
-    > #### **Nota: Archivo con nuestra muestra .arff**
-    > La ruta debe contener la dirección hacía tu archivo .arff
+        > #### **Nota: Archivo con nuestra muestra .arff**
+        > La ruta debe contener la dirección hacía tu archivo .arff
 
 
-     En la clase **`Population`** del package **`GeneticAlgorithm`**, dentro del método **`saveGeneration`** vamos a modificar la siguiente linea.
+    * En la clase **`Population`** del package **`GeneticAlgorithm`**, dentro del método **`saveGeneration`** vamos a modificar la siguiente linea.
 
-    ```java
-    String route = "Your Path\\Folder\\generations.txt";
-    ```
-    > #### **Nota: Archivo con generaciones .txt**
-    > La ruta debe contener la dirección hacía el archivo que contiene las generaciones (en formato .txt)
+        ```java
+        String route = "Your Path\\Folder\\generations.txt";
+        ```
+        > #### **Nota: Archivo con generaciones .txt**
+        > La ruta debe contener la dirección hacía el archivo que contiene las generaciones (en formato .txt)
 
     **Debera agregar la ruta absoluta de la carpeta donde se encuentren todos tus experimentos.** Más adelante explicare la extension y tipo de archivo para los experimentos, así como su nomemclatura.
 
