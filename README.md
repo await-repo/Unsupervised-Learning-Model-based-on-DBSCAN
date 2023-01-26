@@ -64,3 +64,20 @@ El proposito de este proyecto fue utilzar la API de weka para diseñar un sistem
     **Debera agregar la ruta absoluta de la carpeta donde se encuentren todos tus experimentos.** Más adelante explicare la extension y tipo de archivo para los experimentos, así como su nomemclatura.
 
 5. Si todo a salido bien hasta ahora, **podemos iniciar con la parte de los experimentos**
+
+
+### **Archivo sample.arff y generations.txt**
+
+Archivo **generations.txt**
+
+El archivo **generations.txt** contiene los datos de un individuo escrito como una cadena de texto en valor de bits (base 2) . Por ejemplo **`11111001111000100`**, existen 3 conjuntos de bits dentro de la cadena que indican lo siguiente:
+
+* 4 bits de parte entera de la épsilon.
+* 3 bits de parte decimal para la épsilon.
+* 10 bits para representación de los puntos mínimos.
+
+Cada cadena de bit esta compuesta por 17 bits, cada linea dentro del archivo debera representar a un único individuo.
+
+Archivo **sample.arff**
+
+El archivo **sample.arff** contiene el dataset completo con los datos de las propiedades recolectadas de una imagen, en este caso las metricas recolectadas fueron la escala **RGB (Red, Green, Blue)**, dentro del data set cada línea contiene tres atributos separados por coma indicando una cantidad númerica en escala de 0 a 255. Por ejemplo **`133,104,100`** en el orden Red, Green y Blue respectivamente.
